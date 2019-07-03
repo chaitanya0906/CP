@@ -1,0 +1,14 @@
+1] Build the DFS Tree
+2] Postorder Nodes 
+3] Compute Four things 
+  a- DFS Finsih time
+  b- No of next gen including self
+  c- Highest Connected Thing
+  d- Lowest Connected thing
+ 
+ 
+4]  Its a Bridge Point if 
+Highestconnected  <= Order of the DFS finish
+Lowest Connected > Order - Noofnextgenincludingself
+
+Done !!
