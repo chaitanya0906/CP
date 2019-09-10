@@ -68,22 +68,19 @@ int search(string key)
 int32_t main()
 {
         IOS;
-
         cin >> n >> m;
-
         root = getNode();
         while (n--)
         {
                 cin >> s;
-                Add(s);
+                insert(s);
         }
-
         while (m--)
         {
                 cin >> s;
                 int ans = 0;
-
                 string see;
+                map<string, bool> mp;
                 for (int i = 0; i < 216; i++)
                 {
                         see = "";
@@ -120,14 +117,10 @@ int32_t main()
 
                         if (search(see))
                         {
-                                if (alloc == 3)
-                                        ans++;
-                                else if (alloc == 2 && i < 36)
-                                        ans++;
-                                else if (alloc == 1 && i < 6)
-                                        ans++;
-                                else if (alloc == 0 && i == 0)
-                                        ans++;
+                                if (mp[see] == 1)
+                                        continue;
+                                mp[see] = 1;
+                                ans += search(see);
                         }
                 }
 
