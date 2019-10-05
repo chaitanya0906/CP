@@ -1,3 +1,4 @@
+// Example : https://www.hackerearth.com/challenges/competitive/october-easy-19/algorithm/absolute-tree-6aed7d30/submission/31998549/
 // Enables online insertion of (key, value) pairs and querying of maximum value over keys less than a given limit.
 // To query minimums instead, set maximum_mode = false.
 template <typename T_key, typename T_value, T_value V_INF, bool maximum_mode = true>
