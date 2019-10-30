@@ -11,6 +11,7 @@
        <li><a href="https://www.hackerearth.com/practice/notes/bit-manipulation/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Bit Manipulations </li>
       <li><a href="https://quinston.com/code-snippets/manachers-algorithm-code/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Manacher's </li>
        <li><a href="https://codeforces.com/contest/675/submission/63665345" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">Max number index in range l to r </li>
+        <li><a href="https://paste.ubuntu.com/p/HDM5fsMg8v/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">DSU </li>
         
   </ol>
 </body>
